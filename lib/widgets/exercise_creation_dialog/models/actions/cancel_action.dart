@@ -1,0 +1,3 @@
+class CancelAction {
+  const CancelAction();
+}
