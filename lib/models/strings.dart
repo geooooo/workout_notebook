@@ -1,3 +1,4 @@
+const widgetGalleryText = 'Галерея виджетов';
 const workoutNotebookText = 'Тренировочный дневник';
 const titleText = 'Название';
 const barbellPressText = 'Жим штанги';
