@@ -15,8 +15,8 @@ abstract class Exercise implements Built<Exercise, ExerciseBuilder> {
     String title = '',
     bool hasAdditionalWeight = false,
   }) => _$Exercise((b) => b
+    ..muscleGroupType = muscleGroupType ?? MuscleGroupType.values.first 
     ..title = title
-    ..muscleGroupType = muscleGroupType ?? MuscleGroupType.values.first
     ..hasAdditionalWeight = hasAdditionalWeight
   );
 }

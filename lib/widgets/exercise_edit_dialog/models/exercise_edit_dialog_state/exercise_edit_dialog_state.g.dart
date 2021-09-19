@@ -1,74 +1,73 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
-part of 'exercise_creation_dialog_state.dart';
+part of 'exercise_edit_dialog_state.dart';
 
 // **************************************************************************
 // BuiltValueGenerator
 // **************************************************************************
 
-class _$ExerciseCreationDialogState extends ExerciseCreationDialogState {
+class _$ExerciseEditDialogState extends ExerciseEditDialogState {
   @override
   final void Function(Exercise) onSave;
   @override
   final void Function() onCancel;
   @override
-  final Exercise newExercise;
+  final Exercise exercise;
 
-  factory _$ExerciseCreationDialogState(
-          [void Function(ExerciseCreationDialogStateBuilder)? updates]) =>
-      (new ExerciseCreationDialogStateBuilder()..update(updates)).build();
+  factory _$ExerciseEditDialogState(
+          [void Function(ExerciseEditDialogStateBuilder)? updates]) =>
+      (new ExerciseEditDialogStateBuilder()..update(updates)).build();
 
-  _$ExerciseCreationDialogState._(
-      {required this.onSave, required this.onCancel, required this.newExercise})
+  _$ExerciseEditDialogState._(
+      {required this.onSave, required this.onCancel, required this.exercise})
       : super._() {
     BuiltValueNullFieldError.checkNotNull(
-        onSave, 'ExerciseCreationDialogState', 'onSave');
+        onSave, 'ExerciseEditDialogState', 'onSave');
     BuiltValueNullFieldError.checkNotNull(
-        onCancel, 'ExerciseCreationDialogState', 'onCancel');
+        onCancel, 'ExerciseEditDialogState', 'onCancel');
     BuiltValueNullFieldError.checkNotNull(
-        newExercise, 'ExerciseCreationDialogState', 'newExercise');
+        exercise, 'ExerciseEditDialogState', 'exercise');
   }
 
   @override
-  ExerciseCreationDialogState rebuild(
-          void Function(ExerciseCreationDialogStateBuilder) updates) =>
+  ExerciseEditDialogState rebuild(
+          void Function(ExerciseEditDialogStateBuilder) updates) =>
       (toBuilder()..update(updates)).build();
 
   @override
-  ExerciseCreationDialogStateBuilder toBuilder() =>
-      new ExerciseCreationDialogStateBuilder()..replace(this);
+  ExerciseEditDialogStateBuilder toBuilder() =>
+      new ExerciseEditDialogStateBuilder()..replace(this);
 
   @override
   bool operator ==(Object other) {
     if (identical(other, this)) return true;
     final dynamic _$dynamicOther = other;
-    return other is ExerciseCreationDialogState &&
+    return other is ExerciseEditDialogState &&
         onSave == _$dynamicOther.onSave &&
         onCancel == _$dynamicOther.onCancel &&
-        newExercise == other.newExercise;
+        exercise == other.exercise;
   }
 
   @override
   int get hashCode {
     return $jf($jc(
-        $jc($jc(0, onSave.hashCode), onCancel.hashCode), newExercise.hashCode));
+        $jc($jc(0, onSave.hashCode), onCancel.hashCode), exercise.hashCode));
   }
 
   @override
   String toString() {
-    return (newBuiltValueToStringHelper('ExerciseCreationDialogState')
+    return (newBuiltValueToStringHelper('ExerciseEditDialogState')
           ..add('onSave', onSave)
           ..add('onCancel', onCancel)
-          ..add('newExercise', newExercise))
+          ..add('exercise', exercise))
         .toString();
   }
 }
 
-class ExerciseCreationDialogStateBuilder
+class ExerciseEditDialogStateBuilder
     implements
-        Builder<ExerciseCreationDialogState,
-            ExerciseCreationDialogStateBuilder> {
-  _$ExerciseCreationDialogState? _$v;
+        Builder<ExerciseEditDialogState, ExerciseEditDialogStateBuilder> {
+  _$ExerciseEditDialogState? _$v;
 
   void Function(Exercise)? _onSave;
   void Function(Exercise)? get onSave => _$this._onSave;
@@ -78,55 +77,53 @@ class ExerciseCreationDialogStateBuilder
   void Function()? get onCancel => _$this._onCancel;
   set onCancel(void Function()? onCancel) => _$this._onCancel = onCancel;
 
-  ExerciseBuilder? _newExercise;
-  ExerciseBuilder get newExercise =>
-      _$this._newExercise ??= new ExerciseBuilder();
-  set newExercise(ExerciseBuilder? newExercise) =>
-      _$this._newExercise = newExercise;
+  ExerciseBuilder? _exercise;
+  ExerciseBuilder get exercise => _$this._exercise ??= new ExerciseBuilder();
+  set exercise(ExerciseBuilder? exercise) => _$this._exercise = exercise;
 
-  ExerciseCreationDialogStateBuilder();
+  ExerciseEditDialogStateBuilder();
 
-  ExerciseCreationDialogStateBuilder get _$this {
+  ExerciseEditDialogStateBuilder get _$this {
     final $v = _$v;
     if ($v != null) {
       _onSave = $v.onSave;
       _onCancel = $v.onCancel;
-      _newExercise = $v.newExercise.toBuilder();
+      _exercise = $v.exercise.toBuilder();
       _$v = null;
     }
     return this;
   }
 
   @override
-  void replace(ExerciseCreationDialogState other) {
+  void replace(ExerciseEditDialogState other) {
     ArgumentError.checkNotNull(other, 'other');
-    _$v = other as _$ExerciseCreationDialogState;
+    _$v = other as _$ExerciseEditDialogState;
   }
 
   @override
-  void update(void Function(ExerciseCreationDialogStateBuilder)? updates) {
+  void update(void Function(ExerciseEditDialogStateBuilder)? updates) {
     if (updates != null) updates(this);
   }
 
   @override
-  _$ExerciseCreationDialogState build() {
-    _$ExerciseCreationDialogState _$result;
+  _$ExerciseEditDialogState build() {
+    _$ExerciseEditDialogState _$result;
     try {
       _$result = _$v ??
-          new _$ExerciseCreationDialogState._(
+          new _$ExerciseEditDialogState._(
               onSave: BuiltValueNullFieldError.checkNotNull(
-                  onSave, 'ExerciseCreationDialogState', 'onSave'),
+                  onSave, 'ExerciseEditDialogState', 'onSave'),
               onCancel: BuiltValueNullFieldError.checkNotNull(
-                  onCancel, 'ExerciseCreationDialogState', 'onCancel'),
-              newExercise: newExercise.build());
+                  onCancel, 'ExerciseEditDialogState', 'onCancel'),
+              exercise: exercise.build());
     } catch (_) {
       late String _$failedField;
       try {
-        _$failedField = 'newExercise';
-        newExercise.build();
+        _$failedField = 'exercise';
+        exercise.build();
       } catch (e) {
         throw new BuiltValueNestedFieldError(
-            'ExerciseCreationDialogState', _$failedField, e.toString());
+            'ExerciseEditDialogState', _$failedField, e.toString());
       }
       rethrow;
     }
